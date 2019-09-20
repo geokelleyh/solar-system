@@ -33,7 +33,7 @@ console.log(capitalized)
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 */
 const planetsWithE = planets.filter(planet => {
-    return planet.includes("e")
+    return planet.includes("e") 
 })
 
 console.log(planetsWithE)
